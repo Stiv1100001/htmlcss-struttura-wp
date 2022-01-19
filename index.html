@@ -13,15 +13,17 @@
 <body>
     <main class="container">
         <div class="clearfix">
-            <header class="bg-magenta fl-left mg-bot"></header>
-            <section class="bg-yellow fl-left mg-bot"></section>
-            <section class="bg-blue fl-left clearfix">
-                <header class="bg-cyan"></header>
-                <div class="bg-cyan small"></div>
-                <div class="bg-cyan big"></div>
-                <div class="bg-cyan small"></div>
+            <header id="main-header" class="full-width bg-magenta fl-left mg-bot"></header>
+            <section id="yellow-section" class="full-width bg-yellow fl-left mg-bot"></section>
+            <section class="clearfix full-width bg-blue fl-left mg-bot">
+                <header id="second-header" class="full-width bg-cyan fl-left mg-bot"></header>
+                <section class="full-width mg-bot fl-left clearfix">
+                    <div class="bg-cyan small-width fl-left mg-right"></div>
+                    <div class="bg-cyan big-width fl-left mg-right"></div>
+                    <div class="bg-cyan small-width fl-left"></div>
+                </section>
             </section>
-            <footer class="bg-violet fl-left"></footer>
+            <footer id="violet-footer" class="full-width bg-violet fl-left"></footer>
         </div>
     </main>
 </body>

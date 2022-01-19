@@ -11,39 +11,77 @@
     clear: both;
 }
 
-.container {
-    width: 80%;
-    margin: 20px auto;
-
-}
+/* Layout utility */
 
 .mg-bot {
     margin-bottom: 20px;
+}
+
+.mg-right {
+    margin-right: 10px;
 }
 
 .fl-left {
     float: left;
 }
 
-header.bg-magenta {
-    width: 100%;
+/* Color utility */
+
+.bg-magenta {
     background-color: rgb(229, 121, 230);
+}
+
+.bg-yellow {
+    background-color: rgb(225, 214, 122);
+}
+
+.bg-blue {
+    background-color: rgb(1, 133, 255);
+}
+
+.bg-cyan {
+    background-color: rgb(171, 207, 231);
+}
+
+.bg-violet {
+    background-color: rgb(135, 1, 254);
+}
+
+/* Sizing utility */
+
+.full-width {
+    width: 100%;
+}
+
+.small-width {
+    width: calc(25% - 10px);
+    height: 350px;
+}
+
+.big-width {
+    width: 50%;
+    height: 350px;
+}
+
+/* Body */
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#main-header {
     height: 100px;
 }
 
-section.bg-yellow {
-    width: 100%;
-    background-color: rgb(225, 214, 122);
-    height: 400px;
+#yellow-section {
+    height: 300px;
 }
 
-section.bg-blue {
-    background-color: rgb(1, 133, 255);
-    width: 100%;
+#second-header {
+    height: 50px;
 }
 
-footer.bg-violet {
-    width: 100%;
-    background-color: rgb(135, 1, 254);
-    height: 70px;
+#violet-footer {
+    height: 50px;
 }
