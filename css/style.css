@@ -10,3 +10,40 @@
     display: table;
     clear: both;
 }
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.mg-bot {
+    margin-bottom: 20px;
+}
+
+.fl-left {
+    float: left;
+}
+
+header.bg-magenta {
+    width: 100%;
+    background-color: rgb(229, 121, 230);
+    height: 100px;
+}
+
+section.bg-yellow {
+    width: 100%;
+    background-color: rgb(225, 214, 122);
+    height: 400px;
+}
+
+section.bg-blue {
+    background-color: rgb(1, 133, 255);
+    width: 100%;
+}
+
+footer.bg-violet {
+    width: 100%;
+    background-color: rgb(135, 1, 254);
+    height: 70px;
+}
