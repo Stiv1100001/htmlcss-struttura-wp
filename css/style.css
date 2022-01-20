@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.cleafix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -49,10 +49,6 @@
 
 /* Sizing utility */
 
-.full-width {
-    width: 100%;
-}
-
 .small-width {
     width: calc(25% - 10px);
     height: 350px;
@@ -74,7 +70,7 @@
     height: 100px;
 }
 
-#yellow-section {
+#jumbotron {
     height: 300px;
 }
 
